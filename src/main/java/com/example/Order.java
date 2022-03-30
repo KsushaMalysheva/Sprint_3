@@ -43,7 +43,7 @@ public class Order {
         String metroStation = faker.address().state();
         String phone = faker.phoneNumber().phoneNumber();
         int rentTime = faker.number().randomDigit();
-        String deliveryDate =  "02.04.2022";//new SimpleDateFormat("DD.MM.yyyy").format(getInstance().getTime());
+        String deliveryDate =  "02.04.2022";
         String comment = faker.name().title();
         String[] color = null;
 
