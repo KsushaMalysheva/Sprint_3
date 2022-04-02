@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.CreateCourierTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 26.278 s <<< FAILURE! - in com.example.CreateCourierTests
+courierCanNotBeCreatedWithExistingLogin(com.example.CreateCourierTests)  Time elapsed: 24.056 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...гин уже используется[. Попробуйте другой.]> but was:<...гин уже используется[]>
+	at com.example.CreateCourierTests.courierCanNotBeCreatedWithExistingLogin(CreateCourierTests.java:77)
+
+courierCanNotBeCreatedIfHeWasCreated(com.example.CreateCourierTests)  Time elapsed: 0.69 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...гин уже используется[. Попробуйте другой.]> but was:<...гин уже используется[]>
+	at com.example.CreateCourierTests.courierCanNotBeCreatedIfHeWasCreated(CreateCourierTests.java:57)
+
