@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.example.CreateOrderParameterizedTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 3.2 s <<< FAILURE! - in com.example.CreateOrderParameterizedTest
+createOrderWithValidData[0](com.example.CreateOrderParameterizedTest)  Time elapsed: 0.529 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.CreateOrderParameterizedTest.createOrderWithValidData(CreateOrderParameterizedTest.java:50)
+
+createOrderWithValidData[1](com.example.CreateOrderParameterizedTest)  Time elapsed: 0.262 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.CreateOrderParameterizedTest.createOrderWithValidData(CreateOrderParameterizedTest.java:50)
+
+createOrderWithValidData[2](com.example.CreateOrderParameterizedTest)  Time elapsed: 0.254 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.CreateOrderParameterizedTest.createOrderWithValidData(CreateOrderParameterizedTest.java:50)
+
+createOrderWithValidData[3](com.example.CreateOrderParameterizedTest)  Time elapsed: 0.241 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.CreateOrderParameterizedTest.createOrderWithValidData(CreateOrderParameterizedTest.java:50)
+
